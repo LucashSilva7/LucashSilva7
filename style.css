@@ -24,7 +24,7 @@ main{
 }
 
 .texto{
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.24);
     padding: 10px;
 
     border-radius: 10px;
@@ -38,4 +38,8 @@ main{
 
 p{
     padding: 10px 10px;
+}
+
+a.next{
+    
 }
