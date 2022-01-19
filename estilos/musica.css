@@ -32,6 +32,7 @@ p.titulo{
 
 h2{
     padding: 0px 0px 15px 0px;
+    color: white;
 }
 
 
@@ -106,16 +107,19 @@ nav{
 nav a{
     text-decoration: none;
     color: black;
+    transition-duration: 0.2s;
 }
 
 a#soundcloud:hover{
     font-weight: bold;
     color: rgb(255, 85, 0);
+    transition-duration: 0.2s;
 }
 
 a#instagram:hover{
     font-weight: bold;
     color: #d21d73;
+    transition-duration: 0.2s;
 }
 
 div.track{
