@@ -18,13 +18,15 @@ body{
     font-family: 'Montserrat', sans-serif;;
 }
 
+
+
 p.titulo{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 85, 0) 40%, #ff5500 60%, rgba(0, 0, 0, 0));
     color: rgb(255, 255, 255);
 
     text-align: center;
 
-    padding: 10px;
+    padding: 5px;
 }
 
 h2{
@@ -34,15 +36,34 @@ h2{
 
 
 header{
+
     width: auto;
-    height: 30px;
+    height: auto;
 
     background-color: rgba(73, 73, 73, 0.781);
 
-    padding: 10px;
-
     color: white;
 }
+
+header nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header nav a{
+    padding: 10px 0px 5px 0px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+header nav a:hover{
+    transition-duration: 1s;
+    color: white;
+    background-color: rgba(255, 85, 0, 0.61);
+}
+
 
 
 main{
