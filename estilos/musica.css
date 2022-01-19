@@ -3,6 +3,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+
+@media (max-width: 780px) {
+
+    div.main{
+        display: block;
+        
+    }
+
+    
+}
+
+/*Desktop*/
+
+@media (max-width: 2000px){
+
+    div.main{
+        display: grid;
+        grid-template-columns: 80% 20%;
+    
+    }
+
+    main{
+    
+        min-width: 200px;
+        max-width: 1200px;
+        height: 100%;
+    
+        margin: auto;
+        
+        background-color: rgba(0, 0, 0, 0.226);
+    }
+    
+
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -68,21 +103,6 @@ header nav a:hover{
 
 
 
-main{
-    min-width: 200px;
-    max-width: 1200px;
-    height: 100%;
-
-    margin: auto;
-    
-    background-color: rgba(0, 0, 0, 0.226);
-}
-
-div.main{
-    display: grid;
-    grid-template-columns: 80% 20%;
-
-}
 
 div.track{
     transition-duration: 0.5s;
@@ -100,11 +120,11 @@ div.nav{
     padding: 30px;   
 }
 
-nav{
+nav.rightnav{
     position: sticky;
 }
 
-nav a{
+nav.rightnav a{
     text-decoration: none;
     color: black;
     transition-duration: 0.2s;
@@ -125,3 +145,5 @@ a#instagram:hover{
 div.track{
     padding: 30px;
 }
+
+
