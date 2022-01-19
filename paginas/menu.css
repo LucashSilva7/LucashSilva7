@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-image: url(../imagens/backgroundmenu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.icon{
+    color: rgb(0, 247, 255);
+}
+
+header{   
+    width: auto;
+    height: auto;
+
+    background-color: rgba(73, 73, 73, 0.781);
+
+    color: white;
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header nav a{
+    padding: 15px 0px 10px 0px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    transition-duration: 0.3s;
+    font-size: 1.5rem;
+}
+
+header nav a:hover{
+    transition-duration: 0.3s;
+    color: white;
+    background-color: rgba(255, 85, 0, 0.61);
+}
+
+
+
+
+main{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.678);
+
+
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+    height: 80vh;
+}
+
+main article p.titulo{
+    text-align: left;
+    text-decoration: dashed;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+p{
+    padding: 15px 0px;
+}
+
+a.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
