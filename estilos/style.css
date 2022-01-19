@@ -55,11 +55,12 @@ header nav a{
     text-align: center;
     color: white;
     text-align: center;
-    transition-duration: 1s;
+    transition-duration: 0.3s;
+    font-size: 1.5rem;
 }
 
 header nav a:hover{
-    transition-duration: 1s;
+    transition-duration: 0.3s;
     color: white;
     background-color: rgba(255, 85, 0, 0.61);
 }
