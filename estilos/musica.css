@@ -24,6 +24,11 @@
         background-color: rgba(0, 0, 0, 0.226);
     }
     
+    nav.rightnav{
+        position: sticky;
+        left: 0;
+        top: 0;
+    }
 }
 
 *{
