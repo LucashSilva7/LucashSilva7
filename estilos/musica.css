@@ -27,7 +27,7 @@
     nav.rightnav{
         position: sticky;
         left: 0;
-        top: 0;
+        top: 2rem;
     }
 }
 
